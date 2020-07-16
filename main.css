@@ -1,0 +1,25 @@
+body {
+    background-image:
+    url('https://images.unsplash.com/photo-1435224654926-ecc9f7fa028c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80' );
+    /*location of the image*/
+    background-position: center center;
+    /*image is centered vertically nd horiozntally at all times*/
+    background-repeat: no-repeat;
+    /*background doesn't tile*/
+    background-image: fixed, radial-gradient(transparent, black);
+    /*image doesnt move when content height is greater than the image height*/
+    background-size: cover;
+    /*image rescales based on the container's size*/
+
+}
+
+#direction {
+    color: white;
+    text-align: center;
+    
+}
+
+
+#resultArea {
+    color: white;
+}
